@@ -24,7 +24,7 @@ int main()
 
   for (k = 0; k < i; k++ ) {
 
-    del = fmod(nov[k],povtori);
+    del = fmodf(nov[k],povtori);
     sum = sum + del;
 
   }
